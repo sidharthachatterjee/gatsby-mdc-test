@@ -13,15 +13,20 @@ import "../styles/app.scss";
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
-    <Button>Click Me!</Button>
+
     <h1>Hi people</h1>
     <p>Welcome to your new Gatsby site.</p>
     <p>Now go build something great.</p>
     <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
       <Image />
     </div>
+    <br />
+    <br />
+    <Button>Click Me!</Button>
+    <br />
+    <br />
     <Link to="/page-2/">Go to page 2</Link>
   </Layout>
-)
+);
 
 export default IndexPage
